@@ -101,7 +101,7 @@ void leer_consola(t_log* logger)
 void paquete(int conexion)
 {
 	// Ahora toca lo divertido!
-	char* leido;
+	char* leido = NULL;
 	t_paquete* paquete;
 
 	// Leemos y esta vez agregamos las lineas al paquete
